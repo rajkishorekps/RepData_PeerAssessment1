@@ -76,7 +76,7 @@ plot(uniqueDates, totalStepsPerDay, main = "Histogram of steps taken each day",
     lwd = 4, col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](instructions_fig/unnamed-chunk-11-1.png) 
 
 
 The mean steps per day are:
@@ -327,7 +327,7 @@ maxInterval <- uniqueIntervals[maxIndex]
 abline(v = maxInterval, col = "red", lwd = 3)
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](instructions_fig/unnamed-chunk-13-1.png) 
 
 
 With reference to the above plot, the interval that records the maximum number of steps averaged across all days is:
@@ -417,7 +417,7 @@ plot(uniqueDates, totalStepsPerDayNew, main = "Histogram of steps taken each day
     lwd = 4, col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-10](instructions_fig/unnamed-chunk-4-1.png) 
 
 
 With this new data, let's calculate the mean over all days (like in Part 2).  As a side-by-side comparison, we will place the data before imputing, as well as the new one in the same data frame.  Bear in mind that we have replaced all of the `NaN` values to `0`.  As such, the mean steps per day of the new data are:
@@ -633,7 +633,7 @@ plot(uniqueIntervals, meanStepsPerWeekendInterval, type = "l", main = "Average n
     col = "blue")
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14.png) 
+![plot of chunk unnamed-chunk-14](instructions_fig/unnamed-chunk-6-1.png) 
 
 
 What is interesting about this plot is that it very much sums up the activity that any normal person would undergo depending on whether it is a weekday or weekend.  For both days, the intervals between `0` and about `525` are uniform.  This most likely represents when the subject was sleeping.  The differences start at between `525` and roughly `800`.  On the weekdays, movement is most likely attributed to the subject getting ready to go to work or starting their day.  On the weekends, movement is less frequent.  This could be attributed to the subject sleeping in and perhaps making breakfast to start their day.
